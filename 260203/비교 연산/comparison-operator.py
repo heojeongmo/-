@@ -1,30 +1,12 @@
-A,B = map(int, input().split())
-if A >= B:
-    print(1)
-else :
-    print(print(0))
+inp = input()
+arr = inp.split()
+a = int(arr[0])
+b = int(arr[1])
 
-if A > B:
-    print(1)
-else:
-    print(0)
-
-if B>=A:
-    print(1)
-else:
-    print(0)
-
-if B>A:
-    print(1)
-else:
-    print(0)
-
-if A==B:
-    print(1)
-else:
-    print(0)
-
-if A != B:
-    print(1)
-else:
-    print(0)    
+# 출력
+print(int(a >= b))
+print(int(a > b))
+print(int(a <= b))
+print(int(a < b))
+print(int(a == b))
+print(int(a != b))
