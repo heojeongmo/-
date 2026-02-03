@@ -1,6 +1,6 @@
-A = int(input().split())
-B = int(input().split())
-sum = A + B
-avg = sum //2
-print(sum)
-print(avg)
+A, B = map(int, input().split())
+
+total = A + B
+average = total / 2
+
+print(total, average)
