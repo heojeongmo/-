@@ -1,4 +1,9 @@
-A,N = map(int, input().split())
-for i in range(6):
-    A+=N
-    print(A)
+inp = input()
+arr = inp.split()
+a = int(arr[0])
+n = int(arr[1])
+
+# 출력
+for _ in range(n):
+    a += n
+    print(a)
